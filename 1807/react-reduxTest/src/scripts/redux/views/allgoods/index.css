@@ -1,0 +1,34 @@
+.am-navbar-title {
+  color: black !important;
+}
+.liebiaoBox{
+  padding-top: 90px;
+  display: flex;
+}
+.liebiaoLeft{
+  font-size: 30px;
+ 
+}
+.liebiaoLeft li{
+  padding: 10px 20px;
+  background-color: #f3eeee;
+  border-bottom: 1px solid #ddd;
+}
+.liebiaoLeft .liebiaoSelect{
+  background-color: white;
+}
+
+/* .liebiaoLeft{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.liebiaoLeft li{
+  padding: 10px 20px;
+  background-color: #f3eded;
+  font-size: 25px;
+  
+} */

@@ -1,0 +1,33 @@
+/* .loginbox{
+    background:url('../../../../assets/images/mogu.jpg')
+} */
+
+.loginMsgBox{
+    margin-top: 80px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+.loginTitle{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.loginMsgBox input{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    height: 80px;
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0)
+}
+.loginBtn{
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.mui-btn{
+    border-radius: 50px;
+    margin-top: 5px;
+}

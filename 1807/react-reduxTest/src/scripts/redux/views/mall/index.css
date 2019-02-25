@@ -1,0 +1,64 @@
+
+.am-wingblank-lg{margin: 0 !important}
+.navList{border-bottom: 5px solid #ddd;}
+.navList li{display: inline-block; width: 18%;font-size:12px;padding: 5px 1%;text-align: center;}
+
+.imgBox{
+	margin:10px auto;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius:130px;
+	overflow: hidden;
+	background-color: pink;
+}
+
+.imgBox img{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: -5px;
+	left: -32px;
+}
+.maybeLike{
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+}
+.maybeLike li{
+	width: 50%;
+	flex-direction:column;
+	box-sizing: border-box;
+	padding: 1%;
+}
+.maybeLike li a{
+	color: rgb(117, 110, 110)
+}
+.goodsBox{
+	width: 100%;
+	
+}
+.maybeLike li img{
+	width: 100%;
+	vertical-align: middle;
+}
+.goodsMsg{
+	text-overflow: ellipsis;
+	padding: 10px;
+}
+.goodsBoxBottom{
+	display: flex;
+	justify-content: space-between;
+}
+.price{
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+}
+.moveIn{
+    animation: zoomIn .8s;
+}
+
+.bounceInUp{
+	animation: bounceInUp .8s;
+}

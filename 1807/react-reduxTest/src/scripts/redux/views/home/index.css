@@ -1,0 +1,47 @@
+
+
+
+.searchBox{
+    position:fixed;
+	width:100%;
+	height:90px;
+	left:0;
+	top:0;
+	background:red;
+	display:flex;
+    z-index:100;
+	padding: 0 20px;
+	
+}
+.searchBox img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+	width: 40px;
+	height:30px;
+}
+.searchBox a{
+    color: white;
+}
+.nav{height: 90px;border-bottom: 5px solid #ddd;overflow-x:scroll;overflow-y:hidden;white-space: nowrap;padding-top: 90px;}
+.nav li{display: inline-block; width: 25%;font-size:12px;box-sizing: border-box;padding: 0 1%}
+.fenlei{border-bottom: 5px solid #ddd;overflow-x:scroll;overflow-y:hidden;white-space: nowrap;}
+.fenlei li{display: inline-block; width: 18%;font-size:12px;box-sizing: border-box;padding: 0 1%;text-align: center;}
+.fenlei li .imgBox{
+	margin:10px auto;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius:130px;
+	overflow: hidden;
+	background-color: pink;
+}
+.fenlei li a{
+	color: black;
+}
+.fenlei li .imgBox img{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: -5px;
+	left: -32px;
+}

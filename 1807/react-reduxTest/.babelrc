@@ -1,0 +1,12 @@
+
+{
+    "presets": [
+        "env",  //env 主要的作用是，可以设置 targets 来智能识别当前运行环境，进行适当的转码，而不是一股脑的全部转码成 es5 等
+        "react",    // react 转码规则
+        "stage-0"   //可以使js识别箭头函数中的this指向
+    ],
+    "plugins": [
+        "transform-object-rest-spread",  //ES6结构语法...
+        "transform-decorators-legacy"   //ES7语法 类装饰器,能识别@conect的@符号
+    ]
+}

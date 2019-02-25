@@ -1,0 +1,47 @@
+
+
+.userBox{
+   height: 180px;
+    background-color: white;
+    box-shadow: 0 5px 10px #ddd;
+    border-radius: 10px;
+    /* margin: 50px 50px 0 */
+    margin-top: 100px;
+    text-align: center;
+}
+.touxiang{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-top: -50px;
+
+}
+.myBox p{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.myBox .iconfont{
+    color: orange;
+    margin:0 20px;
+}
+.usernameP{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.shezhiP span{
+    display: inline-block;
+    color: rgb(27, 26, 26);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sheshiMsg{
+    margin-right: 10px;
+}
+.shezhiZhuye{
+    margin-left: 10px;
+}

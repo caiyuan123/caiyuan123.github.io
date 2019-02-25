@@ -1,0 +1,107 @@
+.am-navbar-light .am-navbar-title {
+    color: black !important
+}
+.shopingCarGoodsListBox{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.shopingCarGoodsList,li{
+    overflow:hidden;
+    list-style:none;
+}
+.shopingCarGoodsList li{
+    width:120%;
+    position:relative;
+    margin:1% 0;
+    position:relative;
+    -webkit-transition:all 0.2s linear;transition:all 0.2s linear;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+.shopingCarGoodsList li .leftDiv{
+    float:left;
+    width:80%;
+    display: flex;
+}
+.liCheckBox{
+    padding: 0 20px
+}
+.shopingCarGoodsList li .am-checkbox-inner{
+    top:150%;
+}
+.shopingCarGoodsList li .btn{
+    float:right;
+    height: 150px;
+    width:15%;
+    background:#e62727;
+    text-align: center;
+    line-height: 150px;
+}
+.liMsg{
+    display: flex;
+}
+.liMsgLeft{
+   height: 150px;
+}
+.liMsgRight{
+    height: 150px;
+    padding-left: 10px;
+}
+.liMsgPriceBox{
+     margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.liMsgPrice{
+    color: red
+}
+.liMsgTotal{
+    float: right;
+    color: red;
+}
+.liMsgNum{
+    margin-top: 20px;
+}
+.liMsgNum span{
+    float: left;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 0 -1px -1px;
+}
+.shopingcarBottomBox{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+.jiesuanBtn{
+    background-color: #e62727;
+    color: white;
+    padding: 5px 20px;
+    margin:0 15px;
+    font-size: 22px;
+}
+.delAll{
+    color: black;
+    text-decoration:underline
+}
+.am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #e62727;
+    background-color: #e62727;
+}
+
+
+/*设置移动效果*/
+
+.moveleft{
+    transform:translateX(-15%);
+    -webkit-transform:translateX(-15%);
+}
